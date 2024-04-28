@@ -13,7 +13,7 @@ app.listen(PORT, function (err) {
 })
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://restaurant-application-frontend-1.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
 }));
